@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Varun Prasath K</title>
+  <meta name="description"
+    content="Portfolio of Varun Prasath K — AI & Database Engineer building scalable full-stack systems, IoT solutions, and AI-powered workflows." />
+  <meta property="og:title" content="Varun Prasath K — AI & Database Engineer" />
+  <meta property="og:description"
+    content="Results-oriented AI and Database Engineer experienced in building full-stack and IoT systems." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Page Loader -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-content">
+      <div class="loader-greeting">Hello there! <img src="images/hand.png" alt="Wave" class="loader-emoji-icon" /></div>
+      <div class="loader-bar-track">
+        <div class="loader-bar-fill" id="loaderBar"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero" id="hero">
+    <!-- Motion Path Layer -->
+    <div class="motion-layer">
+      <svg class="motion-svg" viewBox="0 0 1000 600" preserveAspectRatio="none">
+        <!-- Path 1: Original Swoop -->
+        <path id="hero-path-1" d="M -100,500 C 200,600 400,200 600,350 S 800,100 1100,250" fill="none"
+          stroke="rgba(201, 162, 39, 0.15)" stroke-width="2" stroke-dasharray="10 10"></path>
+        <!-- Path 2: Wavy horizontal -->
+        <path id="hero-path-2" d="M -50,150 Q 250,50 500,200 T 1050,150" fill="none" stroke="rgba(232, 93, 4, 0.15)"
+          stroke-width="2" stroke-dasharray="6 8"></path>
+        <!-- Path 3: Loop de loop -->
+        <path id="hero-path-3" d="M 1100,500 C 800,450 700,600 600,450 C 500,300 300,500 -50,300" fill="none"
+          stroke="rgba(46, 196, 182, 0.15)" stroke-width="2" stroke-dasharray="12 12"></path>
+      </svg>
+
+      <!-- Elements on Path 1 (Gold dots) -->
+      <div class="motion-shape dot path-1"></div>
+      <div class="motion-shape dot path-1 delayed-1"></div>
+
+      <!-- Elements on Path 2 (Orange squares) -->
+      <div class="motion-shape square path-2"></div>
+      <div class="motion-shape square path-2 delayed-2"></div>
+
+      <!-- Elements on Path 3 (Teal triangles) -->
+      <div class="motion-shape triangle path-3"></div>
+      <div class="motion-shape triangle path-3 delayed-3"></div>
+    </div>
+
+    <div class="container">
+      <div class="hero-layout">
+        <div class="hero-left">
+          <div class="hero-wave reveal">
+            <span class="wave-emoji">👋</span> Hey, I'm —
+          </div>
+          <h1 class="hero-name reveal">
+            Varun<br /><span class="italic-accent">Prasath K</span>
+          </h1>
+          <p class="hero-role reveal">
+            A <span class="highlight">AI & Database Engineer</span> who loves building
+            intelligent systems, full-stack apps, and IoT solutions that actually work.
+          </p>
+          <div class="hero-tags reveal">
+            <span class="hero-tag active">Open to work</span>
+            <span class="hero-tag">Python</span>
+            <span class="hero-tag">GenAI</span>
+            <span class="hero-tag">Full-Stack</span>
+            <span class="hero-tag">IoT</span>
+          </div>
+          <div class="hero-ctas reveal">
+            <a href="#projects" class="btn-primary" id="ctaProjects">
+              See my work
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
+            <a href="#contact" class="btn-secondary" id="ctaContact">
+              Get in touch
+            </a>
+          </div>
+        </div>
+        <div class="hero-right reveal">
+          <div class="hero-photo-wrapper">
+            <div class="hero-blob"></div>
+            <div class="hero-photo">
+              <img src="images/new_profile.jpg" alt="Varun Prasath K" />
+            </div>
+            <!-- Fun floating stickers -->
+            <div class="sticker sticker-1">Loves to learn and build </div>
+            <div class="sticker sticker-2">AI & Database Engineer </div>
+            <div class="sticker sticker-3">Open to work</div>
+            <!-- Doodle -->
+            <div class="doodle-circle">
+              <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+                <circle cx="40" cy="40" r="36" stroke="#c9a227" stroke-width="2" stroke-dasharray="6 6" opacity="0.3" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <span class="marquee-item">Python</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">FastAPI</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">LangChain</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Spring Boot</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">PostgreSQL</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">AWS</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Docker</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">RAG</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">OpenAI</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">IoT</span><span class="marquee-dot">·</span>
+      <!-- duplicate -->
+      <span class="marquee-item">Python</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">FastAPI</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">LangChain</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Spring Boot</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">PostgreSQL</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">AWS</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Docker</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">RAG</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">OpenAI</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">IoT</span><span class="marquee-dot">·</span>
+    </div>
+  </div>
+
+  <!-- ==================== ABOUT ==================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-eyebrow reveal">A little about me</div>
+      <h2 class="section-title reveal">I build things that<br /><span class="italic-accent">make a difference.</span>
+      </h2>
+      <p class="section-desc reveal">Not just code , I build systems that solve real problems for real people.</p>
+
+      <div class="about-layout">
+        <div class="about-text">
+          <p class="reveal">
+            I'm <strong>Varun Prasath K</strong>, completed my bachelor's degree in Computer Science and Engineering at
+            <strong>CARE College of Engineering</strong>, Tiruchirappalli. I fell in love with programming
+            when I realized it lets you turn ideas into things people can actually use.
+          </p>
+          <p class="reveal">
+            My sweet spot? The intersection of <strong>AI and practical engineering</strong>. I've built
+            everything from workflow automation tools that saved <strong>40% of manual work</strong>, to
+            smart IoT devices with on-device computer vision. I care about shipping things that work,
+            not just things that look impressive on paper.
+          </p>
+          <p class="reveal">
+            When I'm not coding, you'll find me exploring new AI papers, tinkering with
+            hardware projects, or diving deep into database optimization rabbit holes.
+          </p>
+          <div class="about-fun-facts stagger">
+            <div class="fun-fact reveal">
+              <span class="fun-fact-emoji"> </span>
+              <div class="fun-fact-text">AI Enthusiast<span>RAG, LangChain, Prompt Eng.</span></div>
+            </div>
+            <div class="fun-fact reveal">
+              <span class="fun-fact-emoji"> </span>
+              <div class="fun-fact-text">Full-Stack Builder<span>React + FastAPI + Spring Boot</span></div>
+            </div>
+            <div class="fun-fact reveal">
+              <span class="fun-fact-emoji"> </span>
+              <div class="fun-fact-text">IoT Tinkerer<span>Raspberry Pi, OpenCV, Sensors</span></div>
+            </div>
+            <div class="fun-fact reveal">
+              <span class="fun-fact-emoji"> </span>
+              <div class="fun-fact-text">Cloud Native<span>AWS, GCP, Docker, CI/CD</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="about-card reveal-right">
+          <div class="about-card-label">// Quick Facts</div>
+          <div class="about-info-row">
+            <span class="about-info-label">Name</span>
+            <span class="about-info-value">Varun Prasath K</span>
+          </div>
+          <div class="about-info-row">
+            <span class="about-info-label">Role</span>
+            <span class="about-info-value accent">AI & DB Engineer</span>
+          </div>
+          <div class="about-info-row">
+            <span class="about-info-label">Location</span>
+            <span class="about-info-value">India 🇮🇳</span>
+          </div>
+          <div class="about-info-row">
+            <span class="about-info-label">University</span>
+            <span class="about-info-value">CARE College of Eng.</span>
+          </div>
+          <div class="about-info-row">
+            <span class="about-info-label">Degree</span>
+            <span class="about-info-value">B.E. CSE (2022–2026)</span>
+          </div>
+          <div class="about-info-row">
+            <span class="about-info-label">Languages</span>
+            <span class="about-info-value">Python, JS, Java</span>
+          </div>
+          <div class="about-info-row">
+            <span class="about-info-label">Interests</span>
+            <span class="about-info-value">GenAI, IoT, Databases</span>
+          </div>
+          <div class="about-info-row">
+            <span class="about-info-label">Status</span>
+            <span class="about-info-value accent">Open to work ✦</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ==================== SKILLS ==================== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-eyebrow reveal">What I work with</div>
+      <h2 class="section-title reveal">My <span class="italic-accent">toolbox.</span></h2>
+      <p class="section-desc reveal">Technologies I reach for when building things.</p>
+
+      <div class="skills-layout stagger">
+        <div class="skill-group reveal">
+          <div class="skill-group-header">
+            <span class="skill-group-emoji"> </span>
+            <h3 class="skill-group-title">Languages</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="skill-pill orange">Python</span>
+            <span class="skill-pill orange">Java</span>
+            <span class="skill-pill orange">JavaScript</span>
+            <span class="skill-pill orange">HTML/CSS</span>
+            <span class="skill-pill orange">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="skill-group-header">
+            <span class="skill-group-emoji"> </span>
+            <h3 class="skill-group-title">Frameworks</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="skill-pill purple">FastAPI</span>
+            <span class="skill-pill purple">Spring Boot</span>
+            <span class="skill-pill purple">React</span>
+            <span class="skill-pill purple">REST APIs</span>
+            <span class="skill-pill purple">JWT Auth</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="skill-group-header">
+            <span class="skill-group-emoji"> </span>
+            <h3 class="skill-group-title">AI & GenAI</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="skill-pill red">RAG</span>
+            <span class="skill-pill red">LangChain</span>
+            <span class="skill-pill red">LangGraph</span>
+            <span class="skill-pill red">Prompt Engineering</span>
+            <span class="skill-pill red">OpenAI API</span>
+            <span class="skill-pill red">Ollama</span>
+            <span class="skill-pill red">Hybrid Search</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="skill-group-header">
+            <span class="skill-group-emoji"> </span>
+            <h3 class="skill-group-title">Databases</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="skill-pill teal">PostgreSQL</span>
+            <span class="skill-pill teal">MongoDB</span>
+            <span class="skill-pill teal">ChromaDB</span>
+            <span class="skill-pill teal">SQLite</span>
+            <span class="skill-pill teal">MySQL</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="skill-group-header">
+            <span class="skill-group-emoji"> </span>
+            <h3 class="skill-group-title">Cloud & DevOps</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="skill-pill blue">AWS</span>
+            <span class="skill-pill blue">GCP</span>
+            <span class="skill-pill blue">Docker</span>
+            <span class="skill-pill blue">Git</span>
+            <span class="skill-pill blue">GitHub Actions</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ==================== EXPERIENCE ==================== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-eyebrow reveal">Where I've been</div>
+      <h2 class="section-title reveal">Work <span class="italic-accent">experience.</span></h2>
+      <p class="section-desc reveal">Real-world engineering, not just textbook problems.</p>
+
+      <div class="exp-card reveal">
+        <div class="exp-badge">Most recent ✦</div>
+        <div class="exp-date">JUL 2025 — AUG 2025</div>
+        <h3 class="exp-title">Software Engineer Intern</h3>
+        <div class="exp-company">Rane Brake Linings, Tiruchirappalli</div>
+        <ul class="exp-list">
+          <li>Architected a full-stack workflow automation app using JavaScript, replacing legacy paper tracking and
+            <strong>reducing manual data entry time by 40%.</strong>
+          </li>
+          <li>Engineered real-time tracking dashboards that accelerated operational updates by 30% and improved
+            reporting accuracy to <strong>99%.</strong></li>
+          <li>Collaborated cross-functionally with stakeholders to define technical requirements, scope sprints, and
+            deliver targeted, high-impact features.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ==================== PROJECTS ==================== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-eyebrow reveal">Things I've built</div>
+      <h2 class="section-title reveal">Featured <span class="italic-accent">projects.</span></h2>
+      <p class="section-desc reveal">From cybersecurity platforms to smart IoT devices.</p>
+
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-img">
+            <img src="images/cyberg.png" alt="CyberG Cybersecurity Learning Platform" />
+            <div class="project-number">01</div>
+          </div>
+          <div class="project-body">
+            <div class="project-date">July 2025</div>
+            <h3 class="project-title">CyberG — Cybersecurity Learning Platform</h3>
+            <p class="project-desc">
+              A dynamic learning platform with courses, awareness programs, and role-based access control with JWT auth.
+              Optimized MongoDB schemas for scalable retrieval of user progress and course materials.
+            </p>
+            <div class="project-tech-row">
+              <span class="project-tech-pill">React</span>
+              <span class="project-tech-pill">Spring Boot</span>
+              <span class="project-tech-pill">MongoDB</span>
+              <span class="project-tech-pill">JWT</span>
+              <span class="project-tech-pill">REST API</span>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-img">
+            <img src="images/iot-stick.png" alt="IoT Smart Walking Stick" />
+            <div class="project-number">02</div>
+          </div>
+          <div class="project-body">
+            <div class="project-date">December 2025</div>
+            <h3 class="project-title">IoT Smart Walking Stick for the Blind</h3>
+            <p class="project-desc">
+              An intelligent walking stick with Raspberry Pi, OpenCV, and lightweight object detection for real-time
+              obstacle detection and audio guidance. Optimized for edge computing with minimal latency.
+            </p>
+            <div class="project-tech-row">
+              <span class="project-tech-pill">Raspberry Pi</span>
+              <span class="project-tech-pill">OpenCV</span>
+              <span class="project-tech-pill">Python</span>
+              <span class="project-tech-pill">Edge AI</span>
+              <span class="project-tech-pill">IoT</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ==================== CERTIFICATIONS ==================== -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-eyebrow reveal">Always learning</div>
+      <h2 class="section-title reveal"><span class="italic-accent">Certifications</span> & credentials.</h2>
+
+      <div class="certs-grid stagger">
+        <div class="cert-card reveal">
+          <span class="cert-emoji"> </span>
+          <div class="cert-info">
+            <h3>Kaggle — Pandas</h3>
+            <p>Data manipulation & analysis</p>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <span class="cert-emoji"> </span>
+          <div class="cert-info">
+            <h3>AWS Skill Builder</h3>
+            <p>Foundations of Prompt Engineering</p>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <span class="cert-emoji"> </span>
+          <div class="cert-info">
+            <h3>AWS Academy Graduate</h3>
+            <p>Cloud Foundations</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ==================== EDUCATION ==================== -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-eyebrow reveal">Where I studied</div>
+      <h2 class="section-title reveal"><span class="italic-accent">Education.</span></h2>
+
+      <div class="edu-card reveal">
+        <span class="edu-emoji">🎓</span>
+        <div class="edu-info">
+          <h3>CARE College of Engineering</h3>
+          <div class="edu-degree">B.E. Computer Science and Engineering</div>
+          <div class="edu-period">Sep 2022 — May 2026 · Tiruchirappalli, India</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ==================== CONTACT ==================== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-layout">
+        <div>
+          <div class="section-eyebrow reveal">Say hello</div>
+          <h2 class="contact-heading reveal">
+            Let's build something<br /><span class="italic-accent">great together.</span>
+          </h2>
+          <p class="contact-body reveal">
+            I'm currently open to full-time roles, internships, and collaborative projects.
+            Whether you have a question, a project idea, or just want to chat — feel free to reach out!
+          </p>
+          <div class="bento-contact-grid stagger">
+            <a href="mailto:varunprasathk22@gmail.com" class="bento-card bento-wide reveal" id="contactEmail">
+              <div class="bento-content">
+                <div class="bento-icon-wrapper">
+                  <img src="images/mail.png" alt="Email" class="bento-icon" />
+                </div>
+                <div class="bento-text">
+                  <span class="bento-label">Drop me a line</span>
+                  <strong class="bento-value">varunprasathk22@gmail.com</strong>
+                </div>
+              </div>
+              <div class="bento-arrow">↗</div>
+            </a>
+
+            <a href="https://linkedin.com/in/varun-prasath-k" target="_blank" rel="noopener"
+              class="bento-card bento-half reveal" id="contactLinkedin">
+              <div class="bento-content">
+                <div class="bento-icon-wrapper">
+                  <img src="images/linkedin.png" alt="LinkedIn" class="bento-icon" />
+                </div>
+                <div class="bento-text">
+                  <span class="bento-label">Connect</span>
+                  <strong class="bento-value">LinkedIn</strong>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://github.com/snakewine00" target="_blank" rel="noopener" class="bento-card bento-half reveal"
+              id="contactGithub">
+              <div class="bento-content">
+                <div class="bento-icon-wrapper">
+                  <img src="images/github.png" alt="GitHub" class="bento-icon" />
+                </div>
+                <div class="bento-text">
+                  <span class="bento-label">Follow</span>
+                  <strong class="bento-value">GitHub</strong>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-left">
+          Made by Varun Prasath K · 2026
+        </div>
+        <div class="footer-right">
+          <a href="https://github.com/snakewine00" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/varun-prasath-k" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:varunprasathk22@gmail.com">Email</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <!-- ==================== JAVASCRIPT ==================== -->
+  <script>
+    (function () {
+      'use strict';
+
+      /* ---- Loader ---- */
+      const loader = document.getElementById('pageLoader');
+      const loaderBar = document.getElementById('loaderBar');
+      let progress = 0;
+
+      function runLoader() {
+        const interval = setInterval(() => {
+          progress += Math.random() * 18 + 5;
+          if (progress >= 100) {
+            progress = 100;
+            clearInterval(interval);
+            loaderBar.style.width = '100%';
+            setTimeout(() => {
+              loader.classList.add('loaded');
+              document.body.style.overflow = '';
+            }, 300);
+          } else {
+            loaderBar.style.width = progress + '%';
+          }
+        }, 50);
+      }
+
+      document.body.style.overflow = 'hidden';
+      window.addEventListener('load', () => setTimeout(runLoader, 100));
+
+      /* ---- Back to Top scroll ---- */
+      window.addEventListener('scroll', () => {
+        const y = window.scrollY;
+        const btn = document.getElementById('backToTop');
+        if (y > 500) {
+          btn.classList.add('visible');
+        } else {
+          btn.classList.remove('visible');
+        }
+      });
+
+      document.getElementById('backToTop').addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+
+      /* ---- Scroll Reveal ---- */
+      const reveals = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+      const revealObserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) entry.target.classList.add('visible');
+        });
+      }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+
+      reveals.forEach(el => revealObserver.observe(el));
+
+      /* ---- Hero tag wiggle on hover ---- */
+      document.querySelectorAll('.hero-tag').forEach(tag => {
+        tag.addEventListener('mouseenter', () => {
+          tag.style.transform = `translateY(-3px) rotate(${(Math.random() - 0.5) * 4}deg)`;
+        });
+        tag.addEventListener('mouseleave', () => {
+          tag.style.transform = '';
+        });
+      });
+
+      /* ---- Skill pill bounce ---- */
+      document.querySelectorAll('.skill-pill').forEach(pill => {
+        pill.addEventListener('mouseenter', () => {
+          pill.style.transition = 'all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1)';
+        });
+      });
+
+
+
+      /* ---- Sticker wiggle on hover ---- */
+      document.querySelectorAll('.sticker').forEach(sticker => {
+        sticker.addEventListener('mouseenter', () => {
+          sticker.style.animation = 'none';
+          sticker.style.transform = 'scale(1.08) rotate(-3deg)';
+        });
+        sticker.addEventListener('mouseleave', () => {
+          sticker.style.transform = '';
+          setTimeout(() => { sticker.style.animation = ''; }, 50);
+        });
+      });
+
+      /* ---- Fun: Random rotation on fun-fact cards ---- */
+      document.querySelectorAll('.fun-fact').forEach(card => {
+        card.addEventListener('mouseenter', () => {
+          const r = (Math.random() - 0.5) * 3;
+          card.style.transform = `translateY(-3px) rotate(${r}deg)`;
+        });
+        card.addEventListener('mouseleave', () => {
+          card.style.transform = '';
+        });
+      });
+
+    })();
+  </script>
+</body>
+
+</html>
